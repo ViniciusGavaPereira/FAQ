@@ -1,0 +1,116 @@
+body{
+    background-color: #C2E1FF;
+}
+
+
+
+.purple{
+    background-image: linear-gradient( #AE69EA , #6A63E7);
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 650px;
+    box-shadow:  3px 4px 20px#3D3D3D;
+    position: relative;
+    z-index: 1;
+}
+
+.box{
+    position: absolute;
+    width: 16%;
+    top: 42%;
+    left: 5%;
+    z-index: 1;
+    
+}
+
+.white{
+    background-color: #F5F5F5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 18%;
+    width: 70%;
+    height: 65%;
+    border-radius: 20px;
+    box-shadow:  4px 5px 40px#3D3D3D;
+
+    overflow: hidden;
+
+} 
+
+
+.woman{
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    left: -70px;
+    z-index: 0
+
+}
+
+.faq{
+    
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50%;
+
+}
+
+
+.faq h2{
+    font-size: 20px;
+    margin: 10px 15px;
+}
+ 
+.question h1{
+    color: #5C5C5C;
+    font-size: 16px;
+    margin: 12px 15px;
+    display: inline-block;
+
+} 
+
+.question :hover{
+    color: #F57B56
+
+}
+
+.faq p{
+    color: grey;
+    font-size: 15px;
+    margin: 5px 15px;
+    
+}
+
+.answer{
+    display: none;
+
+}
+
+.background{
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+}
+
+.attribution{
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+
+
+@media (max-width: 1200px){
+
+    body{
+
+        background-color: red;
+
+    }
+
+}
